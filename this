@@ -1,0 +1,81 @@
+public class Test1 {
+
+
+
+int arg = 5
+
+void myTest(int arg) {
+
+this.arg=arg;
+
+}
+
+public static void main(String[] args) {
+
+int arg = 10
+
+Test1 obj = new Test1();
+
+obj.myTest(arg);
+
+System.out.println(obj.arg);
+
+}
+
+}
+// program 2
+
+
+class App{
+
+App() {
+
+System.out.println("Constructor of App"); }
+
+}
+
+public class Test2 extends App{
+
+Test2(int n) {
+super(n);
+ System.out.println("Constructor of Test2");}
+
+public static void main(String[] args) {
+
+new Test2(20);
+
+}
+
+}
+
+//program 3
+
+ class father{
+
+public final String lastName="obroi";
+
+public final void foodHabit() {
+
+} System.out.println("I like Salty!!!");
+
+}
+
+class son extends father{
+
+// public void foodHabit() {
+
+lastName="Malhotra";
+
+ }
+
+System.out.println("I like Sweet"); // did u observe
+
+}
+
+public class Test3 {
+
+public static void main(String[] args) {
+
+}
+
+}
